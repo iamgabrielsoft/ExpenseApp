@@ -29,10 +29,6 @@
     
 </table>
 
-Features
---------
-- **Local Authentication** using Email and password 
-- MVC Project Structure
 
 - **Account Management**
 
