@@ -16,21 +16,17 @@
 
     <tr>
         <td>POST</td>
-        <td>/api/auth/reg</td>
-        <td>Signup a User to the APP</td>
+        <td>/api/v1/transactions</td>
+        <td>Post a Transaction </td>
     </tr>
 
     <tr>
-        <td>POST</td>
-        <td>/api/auth/login</td>
-        <td>Login The User </td>
+        <td>DELETE</td>
+        <td>/api/v1/transactions/?id</td>
+        <td>Delete a Transaction </td>
     </tr>
 
-    <tr>
-        <td>POST</td>
-        <td>/api/auth/logout</td>
-        <td>LogOut User</td>
-    </tr>
+    
 </table>
 
 Features
@@ -59,7 +55,7 @@ Team Members
 <ul>
     <li>Eronini Gabriel AKA https://twitter.com/iamgabrielsoft</li>
     <li>Farai Nechikwira</li>
-    <li>Satyam Gupta</li>
+
 </ul>
 
 
@@ -75,13 +71,12 @@ Project Structure
 
 
 
-List of Tools Used
+List of Packages Used
 ----------------
 | Package                         | Description                                                             |
 | ------------------------------- | ------------------------------------------------------------------------|
-| cassandra-driver                | Connecting to Casandra           DB                                     |
-| body-parser                     | Node.js body parsing middleware.                                        |
 | chai                            | BDD/TDD assertion library.                                              |
 | dotenv                          | Loads environment variables from .env file.                             |
-
+| cassandra-driver                | for connecting to NODEJS.                                               |
+| morgan                          | Setting-up dev environment                                              |
    
