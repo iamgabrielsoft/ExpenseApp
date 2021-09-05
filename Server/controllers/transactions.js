@@ -1,9 +1,7 @@
 const { ASTRA_KEYSPACE, ASTRA_TABLE }= require('../config/constant');
 const { client, types } = require('../config/db')
 
-// @desc    Get all transactions
-// @route   GET /api/v1/transactions
-// @access  Public
+
 exports.getTransactions = async (req, res, next) => {
   try {
 
