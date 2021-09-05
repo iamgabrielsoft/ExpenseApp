@@ -4,7 +4,7 @@ const { CLIENT_ID, CLIENT_SECRET } = require("./constant")
 
   const client = new Client({
     cloud: {
-      secureConnectBundle: "C:/Users/Softbook/Documents/Main Programs/Open Source/EXPENSEAPP/Server/secure-connect-app.zip",
+      secureConnectBundle: "C:/Users/Softbook/Documents/Main Programs/Open Source/EXPENSEAPP/secure-connect-app.zip",
     }, 
     
     credentials: {
